@@ -53,9 +53,9 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <h3>🍜 Akshay Chinese Corner</h3>
+        <h3>🍜 AK Chinese Corner</h3>
         <p>Fresh, tasty Chinese food made with love.</p>
-        <p>© {new Date().getFullYear()} Akshay Chinese Corner</p>
+        <p>© {new Date().getFullYear()} Gopal Koli</p>
       </footer>
     </>
   );

@@ -1,6 +1,8 @@
 
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { PiBowlFoodFill } from "react-icons/pi";
+
 import "./Home.css";
 
 export default function Home() {
@@ -27,7 +29,7 @@ export default function Home() {
             muted
             loop
             playsInline
-           
+            preload="auto"
           >
             <source
               src="/videos/hero-food.mp4"
@@ -53,12 +55,9 @@ export default function Home() {
 
           <div className="hero-buttons">
             <Link to="/menu" className="btn-primary">
-              Explore Menu →
+            <span>  Explore Menu <PiBowlFoodFill />  </span>
             </Link>
-
-            <a href="#about" className="btn-secondary">
-              Know More
-            </a>
+           
           </div>
 
           <p className="hero-bottom-text">

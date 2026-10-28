@@ -4,7 +4,6 @@ import menuItems from "../data/menu";
 import FoodCard from "../components/FoodCard";
 
 const categories = ["All", "Noodles", "Rice", "Starters"];
-
 export default function Menu() {
   const [activeCategory, setActiveCategory] = useState("All");
 
